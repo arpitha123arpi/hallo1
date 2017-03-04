@@ -5,7 +5,7 @@ if(error)
 throw error;
 console.log("File contained:",text);
 });
-fs.writeFile("ex1.txt",+con,function(err){
+fs.writeFile("ex1.txt","i written to file",function(err){
 if(err)
 throw err;
 else
